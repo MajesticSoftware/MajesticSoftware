@@ -10,7 +10,7 @@ axes.set_ylim([0, 240])
 
 X = np.random.randint(1,80,55)
 Y = np.random.randint(1,240,55)
-
+plt.title('Radom Time Spent By Random Ages (Scatter Plot)")
 plt.xlabel('Age')
 plt.ylabel('Minutes Watching Tv Daily')
 
